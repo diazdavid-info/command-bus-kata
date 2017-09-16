@@ -1,0 +1,20 @@
+{
+  "name": "diazdavid-info/command-bus-kata",
+  "description": "Kata para implementar un command bus",
+  "type": "project",
+  "authors": [
+    {
+      "name": "David Díaz",
+      "email": "diazdavid.info@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "league/tactician": "^1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "diaz\\src\\": "src"
+    }
+  }
+}
